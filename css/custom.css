@@ -41,6 +41,7 @@
 	--secondary-color	: #F7F7F7;
 	--text-color		: #333333;
 	--accent-color		: #FF7D44;
+	/**--accent-color		: #0c4da1;**/
 	--white-color		: #ffffff;
 	--divider-color		: #E2E2E2;
 	--error-color		: rgb(230, 87, 87);
