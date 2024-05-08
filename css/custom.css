@@ -36,11 +36,12 @@
 /*** 	 01. Global Variables	  ***/
 /************************************/
 
+
 :root{
-	--primary-color		: #003B49;
+	--primary-color		: #0c4da1;
 	--secondary-color	: #F7F7F7;
 	--text-color		: #333333;
-	--accent-color		: #FF7D44;
+	--accent-color		: #f46036;
 	/**--accent-color		: #0c4da1;**/
 	--white-color		: #ffffff;
 	--divider-color		: #E2E2E2;
@@ -681,7 +682,7 @@ header.main-header .header-sticky.active{
 .hero{
 	position: relative;
 	padding: 120px 0 220px;
-	background-image: url(../images/hero-bg.jpg);
+	/**background-image: url(../images/hero-bg.jpg);**/
 	background-repeat: no-repeat;
 	background-position: center center;
 }
@@ -1153,6 +1154,15 @@ header.main-header .header-sticky.active{
 /***       07. Services css       ***/
 /************************************/
 
+.our-service .project-image img{
+	position: relative;
+	width: 100%;
+	aspect-ratio: 1 / 0.7;
+	object-fit: cover;
+	text-align: center;
+	transition: all 0.5s ease-out;
+}
+
 .our-service{
 	background-color: var(--secondary-color);
 	padding: 100px 0;
@@ -1195,6 +1205,7 @@ header.main-header .header-sticky.active{
 	background-color: var(--white-color);
 	box-shadow: 0px 10px 50px 0px rgba(3, 75, 91, 0.10);
 	padding: 20px;
+	
 }
 
 .our-service-icon{
@@ -1434,6 +1445,7 @@ header.main-header .header-sticky.active{
 
 .providing-service{
 	padding: 100px 0 50px;
+	background-color: var(--secondary-color);
 }
 
 .Featured-Content-Box img{
