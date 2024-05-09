@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" || $_SERVER["REQUEST_METHOD"] == "OPTIO
     $message = $_POST["message"];
 
     // Set the recipient email address
-    $to = "your_email@example.com";
+    $to = "contact@nlg.com.ge";
 
     // Set the email subject
     $subject = "New Contact Form Submission";
