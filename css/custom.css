@@ -1154,6 +1154,15 @@ header.main-header .header-sticky.active{
 /***       07. Services css       ***/
 /************************************/
 
+.service-image img{
+	position: relative;
+	width: 100%;
+	aspect-ratio: 1 / 0.7;
+	object-fit: cover;
+	text-align: center;
+	transition: all 0.5s ease-out;
+}
+
 .our-service .project-image img{
 	position: relative;
 	width: 100%;
