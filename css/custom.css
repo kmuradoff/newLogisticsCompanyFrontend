@@ -682,7 +682,7 @@ header.main-header .header-sticky.active{
 .hero{
 	position: relative;
 	padding: 120px 0 220px;
-	/**background-image: url(../images/hero-bg.jpg);**/
+	/**background-image: url(../images/hero-bg.webp);**/
 	background-repeat: no-repeat;
 	background-position: center center;
 }
@@ -1248,7 +1248,7 @@ header.main-header .header-sticky.active{
 
 .our-contract{
 	position: relative;
-	background-image: url(../images/background-parallax-1.png);
+	background-image: url(../images/background-parallax-1.webp);
 	background-repeat: no-repeat;
 	background-position: center center;
 	padding: 100px 0;
@@ -1837,7 +1837,7 @@ header.main-header .header-sticky.active{
 
 .page-header{
 	position: relative;
-	background-image: url(../images/page-heade-bg.jpg);
+	background-image: url(../images/page-heade-bg.webp);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
