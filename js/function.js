@@ -210,7 +210,7 @@
 		delegate: 'a',
 		type: 'image',
 		closeOnContentClick: false,
-		closeBtnInside: false,
+		closeBtnInside: true,
 		mainClass: 'mfp-with-zoom',
 		image: {
 			verticalFit: true,
